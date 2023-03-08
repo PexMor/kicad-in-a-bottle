@@ -13,12 +13,7 @@ RUN --mount=type=cache,target=/var/cache/apt \
     python3-pip \
     shared-mime-info \
     software-properties-common \
-    sudo \
-    xrdp \
-    xauth \
-    xvfb \
-    xfce4 \
-    xfce4-goodies
+    sudo
 
 RUN --mount=type=cache,target=/var/cache/apt \
     add-apt-repository --yes ppa:kicad/kicad-7.0-releases \
