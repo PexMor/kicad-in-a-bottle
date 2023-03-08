@@ -16,4 +16,5 @@ docker run -it --rm \
     -v $PWD/home-kicad:/home/kicad \
     -p 5901:5900 \
     -p 3390:3389 \
-    kitest
+    kitest \
+    "$@"
