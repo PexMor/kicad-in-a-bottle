@@ -14,6 +14,7 @@ docker run -it --rm \
     -v $PWD/runx.sh:/usr/local/bin/runx.sh \
     -v $PWD/data:/data \
     -v $PWD/home-kicad:/home/kicad \
+    -v $PWD/locale:/etc/default/locale \
     -p 5901:5900 \
     -p 3390:3389 \
     kitest \
